@@ -64,7 +64,9 @@ Section "Leaphy install"
   File /r "files\mBlock.exe"
   File /r "files\welcome.swf"
   SetOutPath "$INSTDIR\ext\libraries"
-  File /r "files\LeaphyShield2"
+  File /r "files\Leaphyoriginal1"
+ File /r "files\Leaphy Extra"
+ File /r "files\Leaphy Ledstrip"
 
   ; Install files in the Local Store
   SetOutPath "$LeaphyLocalStore\mBlock\libraries"
